@@ -58,7 +58,8 @@ My-First-Website/
 
 ###  The Scrolling Products
 Used `<marquee>` (yes, I know it's deprecated now, but it was MAGIC back then!)
-```html  
+```html
+<marquee>
 ```
 Watching those product images scroll felt like I'd built Amazon.
 
@@ -86,7 +87,7 @@ Watching those product images scroll felt like I'd built Amazon.
 
 First line of code ever written:
 ```html
-
+<!Doctype html>
 ```
 Felt like Tony Stark.
 
