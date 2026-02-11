@@ -4,7 +4,7 @@
 
 ---
 
-## 💙 Remember That Feeling?
+##  Remember That Feeling?
 
 You know that moment when you type `<html>` for the first time and suddenly feel like you can build the internet? That was me. 9th grade. Old computer. Blank Notepad screen. A dream to help my father's mobile phone shop.
 
@@ -18,7 +18,7 @@ Every `<marquee>` tag that scrolled. Every `bgcolor` that changed colors. Every 
 
 ---
 
-## 🎯 What This Is
+##  What This Is
 
 **Shree Om Enterprises** is my father's mobile phone and accessories store in Pune. This website is:
 
@@ -56,17 +56,14 @@ My-First-Website/
 
 ## ✨ The Features (I Was So Proud Of)
 
-### 🎪 The Scrolling Products
+###  The Scrolling Products
 Used `<marquee>` (yes, I know it's deprecated now, but it was MAGIC back then!)
-```html
-
-  
-
+```html  
 ```
 Watching those product images scroll felt like I'd built Amazon.
 
-### 🗺️ Google Maps Embed
-### 🎨 Color Scheme
+###  Google Maps Embed
+###  Color Scheme
 - `#023047` - Deep blue (looked professional to 9th grade me)
 - `#7dcfb6` - Mint green (because it was calming)
 - `#00b2ca` - Cyan (for that pop!)
@@ -74,7 +71,7 @@ Watching those product images scroll felt like I'd built Amazon.
 
 ---
 
-## 🛠️ The "Tech Stack" (Humble Beginnings)
+##  The "Tech Stack" (Humble Beginnings)
 
 **What I Used:**
 - HTML (learned from a textbook, line by line)
@@ -126,7 +123,7 @@ It's proof that:
 - 
 ---
 
-## 🚀 Where This Led Me
+##  Where This Led Me
 
 **From this 9th grade Notepad project, I went on to:**
 
