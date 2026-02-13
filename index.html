@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Om Enterprises | Mobile Phones & Accessories</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #000;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #023047 0%, #00b2ca 100%);
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-top: 20px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+        }
+
+        .intro {
+            background: #7dcfb6;
+            padding: 40px 20px;
+            text-align: center;
+            color: #000;
+        }
+
+        .intro p {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            margin: 40px 0;
+            padding: 40px;
+            border-radius: 12px;
+        }
+
+        .products {
+            background: linear-gradient(135deg, #002748 0%, #001a2e 100%);
+        }
+
+        .section-title {
+            background: #00b2ca;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            margin: 0 0 30px 0;
+            border-radius: 8px;
+        }
+
+        .slider {
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        .slider-track {
+            display: flex;
+            gap: 20px;
+            animation: scroll 30s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .slider img {
+            width: 200px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+            flex-shrink: 0;
+        }
+
+        .more-text {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-top: 30px;
+            color: white;
+        }
+
+        /* FORM BUTTON SECTION - VERY VISIBLE */
+        .form-cta {
+            background: #7dcfb6;
+            padding: 50px 40px;
+            text-align: center;
+            border-radius: 12px;
+        }
+
+        .form-cta h2 {
+            color: #023047;
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+        }
+
+        .form-button {
+            display: inline-block;
+            background: #023047;
+            color: white;
+            padding: 20px 50px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+        }
+
+        .form-button:hover {
+            background: #002748;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+
+        .finance {
+            background: #00b2ca;
+            text-align: center;
+        }
+
+        .finance h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .finance p {
+            color: white;
+            margin-bottom: 25px;
+        }
+
+        .finance-logos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .finance-logos img {
+            height: 80px;
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .brands {
+            background: #6c757d;
+        }
+
+        .brands-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .brands-grid img {
+            width: 100%;
+            height: 100px;
+            object-fit: contain;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .tagline {
+            background: #000;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .tagline h2 {
+            font-size: 2.5rem;
+            color: #00b2ca;
+            text-shadow: 0 0 20px rgba(0,178,202,0.5);
+        }
+
+        .sidebar-widget {
+            background: #6c8dfa;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 40px auto;
+            max-width: 400px;
+        }
+
+        .sidebar-widget h3 {
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .sidebar-widget iframe {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #023047 0%, #002748 100%);
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+
+        .footer-section h4 {
+            color: #7dcfb6;
+            margin-bottom: 15px;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer-section a:hover {
+            color: #7dcfb6;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .slider img {
+                width: 150px;
+                height: 200px;
+            }
+
+            .form-button {
+                padding: 15px 30px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero">
+        <img src="assets/logo.jpg" alt="Logo" class="logo">
+        <h1>SHREE OM ENTERPRISES</h1>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro">
+        <p>
+            Get the best deals on mobile phones and accessories. Find various brands as per your choice.
+            We not only offer <strong>smartphones</strong> but also <strong>accessories</strong> including 
+            branded Bluetooth devices, smartwatches, headsets, and much more. Get your current device 
+            fixed and maintained at reasonable rates.
+        </p>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Products -->
+        <section class="section products">
+            <h2 class="section-title">Our Product Range</h2>
+            <div class="slider">
+                <div class="slider-track">
+                    <img src="assets/1.jpg" alt="Product">
+                    <img src="assets/2.jpg" alt="Product">
+                    <img src="assets/3.jpg" alt="Product">
+                    <img src="assets/4.jpg" alt="Product">
+                    <img src="assets/5.jpg" alt="Product">
+                    <img src="assets/6.jpg" alt="Product">
+                    <img src="assets/7.jpg" alt="Product">
+                    <img src="assets/8.jpg" alt="Product">
+                    <img src="assets/9.jpg" alt="Product">
+                    <img src="assets/10.jpg" alt="Product">
+                    <img src="assets/11.jpg" alt="Product">
+                    <img src="assets/a.jpeg" alt="Accessory">
+                    <img src="assets/b.jpeg" alt="Accessory">
+                    <img src="assets/c.jpeg" alt="Accessory">
+                    <img src="assets/d.jpeg" alt="Accessory">
+                    <img src="assets/e.jpeg" alt="Accessory">
+                    <img src="assets/f.jpeg" alt="Accessory">
+                    <img src="assets/g.jpeg" alt="Accessory">
+                    <!-- Duplicates for loop -->
+                    <img src="assets/1.jpg" alt="Product">
+                    <img src="assets/2.jpg" alt="Product">
+                    <img src="assets/3.jpg" alt="Product">
+                </div>
+            </div>
+            <p class="more-text">AND MANY MORE!</p>
+        </section>
+
+        <!-- FORM CALL TO ACTION - BIG BUTTON -->
+        <section class="section form-cta">
+            <h2>📱 Want to Receive Personalized Notifications & Alerts?</h2>
+            <a href="form.html" class="form-button">Fill Customer Form</a>
+        </section>
+
+        <!-- Finance -->
+        <section class="section finance">
+            <h3>Flexible Payment Options</h3>
+            <p>
+                To reduce the burden of one-time payment, we promote <strong>FinServe Service</strong>, 
+                where customers can customize their EMI or installments according to their preference.
+            </p>
+            <div class="finance-logos">
+                <img src="assets/50.jpeg" alt="Finance">
+                <img src="assets/51.jpeg" alt="Finance">
+                <img src="assets/52.jpeg" alt="Finance">
+                <img src="assets/53.jpeg" alt="Finance">
+            </div>
+        </section>
+
+        <!-- Brands -->
+        <section class="section brands">
+            <h2 class="section-title">Featured Brands at Our Store</h2>
+            <div class="brands-grid">
+                <img src="assets/20.jpg" alt="Brand">
+                <img src="assets/21.jpg" alt="Brand">
+                <img src="assets/22.jpg" alt="Brand">
+                <img src="assets/41.jpeg" alt="Brand">
+                <img src="assets/23.jpg" alt="Brand">
+                <img src="assets/24.jpg" alt="Brand">
+                <img src="assets/40.jpeg" alt="Brand">
+                <img src="assets/26.jpg" alt="Brand">
+                <img src="assets/30.jpeg" alt="Brand">
+                <img src="assets/28.jpg" alt="Brand">
+            </div>
+        </section>
+
+        <!-- Tagline -->
+        <section class="section tagline">
+            <h2>"You Can Always Find Something You Want"</h2>
+        </section>
+
+        <!-- Map -->
+        <div class="sidebar-widget">
+            <h3>Find Our Store</h3>
+            <p>Click on the map below to get directions</p>
+            <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.6594830330175!2d73.79578867585328!3d18.670023182527436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b783c8895795%3A0x5564129fdb89e589!2sShree%20Om%20Enterprises!5e0!3m2!1sen!2sin!4v1739461200000!5m2!1sen!2sin" 
+    width="100%" 
+    height="300" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy">
+</iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Your trusted destination for mobile phones and accessories in Pune since 2000.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: <a href="mailto:shree_om_enterprises_2000@gmail.com">shree_om_enterprises_2000@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+919096212425">+91 90962 12425</a></p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <p><a href="form.html">Customer Form</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2000 Shree Om Enterprises. All rights reserved.</p>
+                <p style="color: #7dcfb6;">Website Designed by <strong>Uma Satish Salunke</strong></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Form - Shree Om Enterprises</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* ===========================
+           Form Page Styles
+           =========================== */
+        :root {
+            --primary-color: #023047;
+            --secondary-color: #7dcfb6;
+            --accent-color: #00b2ca;
+            --dark-bg: #002748;
+            --light-text: #f8f9fa;
+            --dark-text: #212529;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', 'Century Gothic', sans-serif;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-bg) 100%);
+            background-attachment: fixed;
+            min-height: 100vh;
+            padding: 20px;
+            color: var(--dark-text);
+        }
+
+        .form-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        /* ===========================
+           Form Header
+           =========================== */
+        .form-header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .back-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50px;
+            transition: background 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .form-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* ===========================
+           Form Sections
+           =========================== */
+        .customer-form {
+            padding: 40px 30px;
+        }
+
+        .form-section {
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .form-section:last-of-type {
+            border-bottom: none;
+        }
+
+        .form-section h2 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-bottom: 25px;
+            font-weight: 600;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--secondary-color);
+            display: inline-block;
+        }
+
+        /* ===========================
+           Form Groups
+           =========================== */
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--dark-text);
+            font-size: 1rem;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group input[type="tel"],
+        .form-group input[type="date"],
+        .form-group input[type="file"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            font-size: 1rem;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .form-group input[type="text"]:focus,
+        .form-group input[type="email"]:focus,
+        .form-group input[type="tel"]:focus,
+        .form-group input[type="date"]:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 3px rgba(0, 178, 202, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .form-group small {
+            display: block;
+            margin-top: 5px;
+            color: #6c757d;
+            font-size: 0.875rem;
+        }
+
+        .form-group input[type="color"] {
+            width: 100px;
+            height: 50px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        /* ===========================
+           Radio Buttons
+           =========================== */
+        .radio-group {
+            display: flex;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .radio-label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 400;
+        }
+
+        .radio-label input[type="radio"] {
+            margin-right: 8px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: var(--accent-color);
+        }
+
+        /* ===========================
+           Form Actions
+           =========================== */
+        .form-actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e9ecef;
+        }
+
+        .submit-btn,
+        .reset-btn {
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 178, 202, 0.3);
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 178, 202, 0.4);
+        }
+
+        .reset-btn {
+            background: #6c757d;
+            color: white;
+        }
+
+        .reset-btn:hover {
+            background: #5a6268;
+            transform: translateY(-2px);
+        }
+
+        /* ===========================
+           Footer
+           =========================== */
+        .form-footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        .form-footer p {
+            margin: 5px 0;
+        }
+
+        .form-footer strong {
+            color: var(--primary-color);
+        }
+
+        /* ===========================
+           Responsive Design
+           =========================== */
+        @media (max-width: 768px) {
+            .form-header h1 {
+                font-size: 2rem;
+            }
+            
+            .customer-form {
+                padding: 30px 20px;
+            }
+            
+            .form-section h2 {
+                font-size: 1.3rem;
+            }
+            
+            .form-actions {
+                flex-direction: column;
+            }
+            
+            .submit-btn,
+            .reset-btn {
+                width: 100%;
+            }
+            
+            .back-link {
+                position: static;
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            
+            .form-container {
+                border-radius: 8px;
+            }
+            
+            .form-header {
+                padding: 30px 20px;
+            }
+            
+            .form-header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <a href="index.html" class="back-link">← Back to Home</a>
+            <h1>Customer Details Form</h1>
+            <p class="subtitle">Help us serve you better by providing your details</p>
+        </div>
+
+        <form action="thankyou.html" method="post" class="customer-form">
+            <div class="form-section">
+                <h2>Personal Information</h2>
+                
+                <div class="form-group">
+                    <label for="customer-name">Customer's Name *</label>
+                    <input type="text" id="customer-name" name="customer-name" required 
+                           placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required 
+                           placeholder="abc@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Contact Number *</label>
+                    <input type="tel" id="phone" name="phone" required 
+                           pattern="[0-9]{10}" 
+                           placeholder="9876543210">
+                    <small>Enter 10-digit mobile number</small>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Customer Status</h2>
+                
+                <div class="form-group">
+                    <label>Already our customer?</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="existing-customer" value="yes">
+                            <span>Yes</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="existing-customer" value="no" checked>
+                            <span>No</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="bill-upload">If already a customer, please attach a bill</label>
+                    <input type="file" id="bill-upload" name="bill-upload" accept=".pdf,.jpg,.jpeg,.png">
+                </div>
+
+                <div class="form-group">
+                    <label for="inception-date">Date of Inception</label>
+                    <input type="date" id="inception-date" name="inception-date">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Device Preferences</h2>
+                
+                <div class="form-group">
+                    <label for="current-phone">Choose Current Phone In Use</label>
+                    <select id="current-phone" name="current-phone">
+                        <option value="">-- Select Brand --</option>
+                        <option value="iphone">iPhone</option>
+                        <option value="oneplus">OnePlus</option>
+                        <option value="oppo">Oppo</option>
+                        <option value="vivo">Vivo</option>
+                        <option value="samsung">Samsung</option>
+                        <option value="nokia">Nokia</option>
+                        <option value="mi">MI</option>
+                        <option value="realme">Realme</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="preferred-color">Choose a Preferred Color</label>
+                    <input type="color" id="preferred-color" name="preferred-color" value="#023047">
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Additional Information</h2>
+                
+                <div class="form-group">
+                    <label for="address">Customer's Address</label>
+                    <textarea id="address" name="address" rows="4" 
+                              placeholder="Enter your complete address"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="feedback">Please Enter Your Valuable Feedback</label>
+                    <textarea id="feedback" name="feedback" rows="5" 
+                              placeholder="Share your thoughts, suggestions, or requirements"></textarea>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="submit-btn">Submit Form</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </form>
+
+        <footer class="form-footer">
+            <p>Some Rights Reserved</p>
+            <p>Website Designed By <strong>Uma Satish Salunke</strong></p>
+        </footer>
+    </div>
+</body>
+</html>
