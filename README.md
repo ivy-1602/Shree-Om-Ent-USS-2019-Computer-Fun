@@ -1,19 +1,16 @@
 # 🏪 Shree Om Enterprises - Where It All Started, felt like Tony Stark. Grateful for my Lappy.
 
-> *My first website. Made in Notepad. For my fathers's store. In 9th grade.*
+> *My first website. Made in Notepad.For my fatheIn 9th grade.*
 
 ---
 
 ##  Remember That Feeling?
 
-You know that moment when you type `<html>` for the first time and suddenly feel like you can build the internet? That was me. 9th grade. Old computer. Blank Notepad screen. A dream to help my father's mobile phone shop.
-
+You know that moment when you type `<html>` for the first time and suddenly feel like you can build the internet? That was me. 9th grade. My lappy. Blank Notepad screen.
 No VS Code. No autocomplete. No "let me Google that." Just:
 - A HTML textbook I borrowed from the library
-- Notepad (yes, just Notepad)
-- My dad's store that deserved a website
-- Pure determination (and a lot of trial and error)
-
+- Notepad
+- 
 Every `<marquee>` tag that scrolled. Every `bgcolor` that changed colors. Every table that (finally) aligned properly. They weren't just code. They were **proof I could create something real**.
 
 ---
@@ -24,13 +21,12 @@ Every `<marquee>` tag that scrolled. Every `bgcolor` that changed colors. Every 
 
 -  My **first ever** web project
 -  Made **entirely in Notepad** (no IDE, just me, my lappy and a textbook)
--  Built for a **real business** (my father's store!)
+-  Built for a **real business** (my father's!)
 -  Designed with **9th grade enthusiasm** (bright colors, marquees, maximum vibes)
 
 **Year:** 2019-2020  
 **Grade:** 9th Standard  
 **Tools:** Notepad, a textbook, and a dream  
-**Result:** A working website that made my dad proud 💚
 
 ---
 
@@ -43,13 +39,7 @@ My-First-Website/
 ├── form.html              # Customer form
 ├── thankyou.html          # Success page (with a celebration GIF!)
 │
-└── assets/                # All the images (not included here)
-    ├── logo.jpg           # store logo
-    ├── 1.jpg - 11.jpg     # Product photos I took
-    ├── a.jpeg - g.jpeg    # More products
-    ├── 20.jpg - 30.jpg    # Brand logos I collected
-    ├── 50-53.jpeg         # EMI partner logos
-    └── 17.gif             # That thank you celebration GIF!
+└── assets/               
 ```
 
 ---
@@ -78,7 +68,7 @@ Watching those product images scroll felt like I'd built Amazon.
 - HTML (learned from a textbook, line by line)
 - `<table>` for layout (this was 2019, I didn't know better!)
 - `<marquee>` for animations (deprecated but ICONIC)
-- `<font>` tags (yes, I used those)
+- `<font>` tags ( i used to forget to close tags sometimes)
 - `bgcolor` attributes
 
 ---
@@ -90,9 +80,6 @@ First line of code ever written:
 <!Doctype html>
 ```
 Felt like Tony Stark.
-
-**The reveal:**
-Showed it to my father. He didn't understand how it worked. But he understood it was **his store, online, made by his daughter**. That was enough.
 
 ---
 
@@ -111,7 +98,7 @@ Showed it to my father. He didn't understand how it worked. But he understood it
 
 ## Why This Matters (To Me)
 
-This isn't the best website. The code isn't clean. It's not responsive. It breaks on mobile. The colors are... intense. There's no JavaScript. The layout uses tables.
+This isn't the best website. The code isn't clean. It's not responsive. The colors are... intense. There's no JavaScript. The layout uses tables.
 
 **But it's mine.**
 
@@ -153,21 +140,6 @@ Pune, Maharashtra, India
 
 ---
 
-## To My Father
-
-Thank you for:
-- Trusting a 9th grader to build a website for your business
-
-This website didn't bring thousands of customers. But it gave your daughter **confidence** that she can build something. And that changed everything.
-
----
-
-## 🍁For Anyone Reading This
-
-If you're a beginner thinking "I could never build something":
-
-**STOP.**
-
 I started with:
 - Zero coding knowledge
 - Just Notepad
@@ -176,25 +148,11 @@ I started with:
 - Just a textbook 
 ---
 
-## 🦩Final Thoughts
-
-Years from now, I'll look at this and smile. Not because it's perfect (it's not). Not because it's impressive (it's really not). But because it represents:
-
-**The moment I realized I could create.**
-
-That 9th grade girl who opened Notepad and typed `<html>` had no idea where this would lead. But she had **courage**. And that was enough.
-
-To everyone starting their journey: You don't need to know everything. You just need to start. Start small. Start messy. Start with passion.
-
-The rest will follow.
-
----
-
-*Made with 🤍, Notepad, and a 9th grader's determination*
+*Made with 🤍, Lappy's Notepad, and a 9th grader's determination*
 
 *"YOU CAN ALWAYS FIND SOMETHING YOU WANT" - Shree Om Enterprises*
 
-*(And accidentally, the motto of my coding journey too)*
+*(And accidentally, the motto of my life as well.)*
 
 ---
 
