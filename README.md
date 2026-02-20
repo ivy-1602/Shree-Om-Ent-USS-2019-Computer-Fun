@@ -1,7 +1,6 @@
-# 🏪 Shree Om Enterprises - Where It All Started, felt like Tony Stark. Grateful for my Lappy.
+# 🏪 Shree Om Enterprises - Where It All Started. Grateful for my Lappy.
 
-> *My first website. Made in Notepad.For my fatheIn 9th grade.*
-
+> *My first website. Made in Notepad. In 9th grade.*
 ---
 
 ##  Remember That Feeling?
@@ -10,7 +9,6 @@ You know that moment when you type `<html>` for the first time and suddenly feel
 No VS Code. No autocomplete. No "let me Google that." Just:
 - A HTML textbook I borrowed from the library
 - Notepad
-- 
 Every `<marquee>` tag that scrolled. Every `bgcolor` that changed colors. Every table that (finally) aligned properly. They weren't just code. They were **proof I could create something real**.
 
 ---
@@ -86,13 +84,13 @@ Felt like Tony Stark.
 ## What I Actually Learned
 
 ### Technical Stuff
-- ✅ HTML structure (`<html>`, `<head>`, `<body>`)
-- ✅ All the basic tags (`<h1>`, `<p>`, `<img>`, `<a>`)
-- ✅ Tables for layout (not best practice but hey, it worked!)
-- ✅ Forms and all input types
-- ✅ iframes (for that Google Maps embed)
-- ✅ How to organize files and folders
-- ✅ That `<marquee>` is deprecated (learned this later, still love it)
+- HTML structure (`<html>`, `<head>`, `<body>`)
+- All the basic tags (`<h1>`, `<p>`, `<img>`, `<a>`)
+- Tables for layout (not best practice but hey, it worked!)
+- Forms and all input types
+- iframes (for that Google Maps embed)
+- How to organize files and folders
+- That `<marquee>` is deprecated (learned this later, still love it)
 
 ---
 
@@ -108,7 +106,6 @@ It's proof that:
 - Real projects teach you more than tutorials
 - Creating something for someone you love hits different
 - Starting messy is better than not starting at all
-- 
 ---
 
 ##  Where This Led Me
@@ -137,6 +134,12 @@ Pune, Maharashtra, India
 📧 Email: shree_om_enterprises_2000@gmail.com  
 📱 Phone: +91 90962 12425  
 🗺️ Find us: [Google Maps](https://maps.app.goo.gl/V3UBBHEbqJjuiG1k9)
+---
+## About me
+
+**Uma Salunke** 
+
+[LinkedIn](https://www.linkedin.com/in/umasalunke7) • [GitHub](https://github.com/ivy-1602) • [Email](mailto:umasalunke7@gmail.com)
 
 ---
 
@@ -152,7 +155,7 @@ I started with:
 
 *"YOU CAN ALWAYS FIND SOMETHING YOU WANT" - Shree Om Enterprises*
 
-*(And accidentally, the motto of my life as well.)*
+*(And accidentally, the motto for my life as well.)*
 
 ---
 
