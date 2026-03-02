@@ -139,16 +139,16 @@ But none of it would've happened without this first messy, colorful, marquee-fil
 
 ---
 
-## 📬 About The Store
+### 📬 About The Store
 
 **Shree Om Enterprises**  
 Owned by: Satish Salunke
 Mobile Phones & Accessories  
 Pune, Maharashtra, India
 
-📧 Email: shree_om_enterprises_2000@gmail.com  
-📱 Phone: +91 90962 12425  
-🗺️ Find us: [Google Maps](https://maps.app.goo.gl/V3UBBHEbqJjuiG1k9)
+### 📧 Email: shree_om_enterprises_2000@gmail.com  
+### 📱 Phone: +91 90962 12425  
+### 🗺️ Find us: [Google Maps](https://maps.app.goo.gl/V3UBBHEbqJjuiG1k9)
 ---
 ## About me
 
@@ -173,7 +173,4 @@ I started with:
 *(And accidentally, the motto for my life as well.)*
 
 ---
-
-**P.S.** - If you find bugs in this code... congratulations, you found a time capsule of my 9th grade understanding of HTML.
-
-**P.P.S.** - Yes, the colors are intense. Yes, there are too many `<marquee>` tags. Yes, inline CSS everywhere. That's the aesthetic. Embrace it.
+**P.S** - Yes, the colors are intense. Yes, there are too many `<marquee>` tags. Yes, inline CSS everywhere. That's the aesthetic. Embrace it.
