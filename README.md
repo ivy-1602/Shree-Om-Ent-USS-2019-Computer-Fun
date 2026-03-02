@@ -27,6 +27,21 @@ Every `<marquee>` tag that scrolled. Every `bgcolor` that changed colors. Every 
 **Tools:** Notepad, a textbook, and a dream  
 
 ---
+## 📸 Website Preview
+
+### Homepage
+![Shree Om Enterprises Homepage](https://i.imgur.com/CW6B19t.jpeg)
+
+### Products Section
+![Products Display](https://i.imgur.com/fwuLLr1.jpeg )
+
+### Contact Form
+![Contact Form](https://i.imgur.com/gPYrhAx.jpeg)
+
+### Google Maps Integration
+![Location Map](https://i.imgur.com/uKPwsUc.jpeg)
+
+---
 
 ## 📂 What's Inside
 
