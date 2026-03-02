@@ -146,9 +146,12 @@ Owned by: Satish Salunke
 Mobile Phones & Accessories  
 Pune, Maharashtra, India
 
-### 📧 Email: shree_om_enterprises_2000@gmail.com  
-### 📱 Phone: +91 90962 12425  
-### 🗺️ Find us: [Google Maps](https://maps.app.goo.gl/V3UBBHEbqJjuiG1k9)
+Email: shree_om_enterprises_2000@gmail.com  
+
+Phone: +91 90962 12425  
+
+Find us: [Google Maps](https://maps.app.goo.gl/V3UBBHEbqJjuiG1k9)
+
 ---
 ## About me
 
