@@ -6,7 +6,7 @@
 ##  Remember That Feeling?
 
 You know that moment when you type `<html>` for the first time and suddenly feel like you can build the internet? That was me. 9th grade. My lappy. Blank Notepad screen.
-No VS Code. No autocomplete. No "let me Google that." Just:
+No VS Code.No ide. No autocomplete. No "let me Google that." Just:
 - A HTML textbook I borrowed from the library
 - Notepad
 Every `<marquee>` tag that scrolled. Every `bgcolor` that changed colors. Every table that (finally) aligned properly. They weren't just code. They were **proof I could create something real**.
